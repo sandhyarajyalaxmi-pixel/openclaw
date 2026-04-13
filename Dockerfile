@@ -87,4 +87,4 @@ RUN chmod -R 777 /data
 USER node
 EXPOSE 18789
 
-CMD ["node", "openclaw.mjs", "gateway", "--allow-unconfigured", "--bind", "0.0.0.0"]
+CMD ["node", "openclaw.mjs", "gateway", "--allow-unconfigured", "--bind", "lan"]
